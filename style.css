@@ -165,3 +165,62 @@ main {
   font-weight: 700;
   color: #c7365f;
 }
+
+@media screen and (orientation: portrait) {
+  main {
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    display: inline-block;
+  }
+
+  .player {
+    position: relative;
+    height: 50%;
+    padding: 10%;
+  }
+
+  .name {
+    margin-top: 20px;
+    font-size: 2.4rem;
+    font-weight: 300;
+  }
+  .dice {
+    top: 46%;
+    height: 7rem;
+  }
+
+  .btn--new {
+    top: 2%;
+    left: 50%;
+  }
+  .btn--roll {
+    left: 20%;
+    top: 48%;
+  }
+  .btn--hold {
+    left: 80%;
+    top: 48%;
+  }
+  .btn {
+    font-size: 1.3rem;
+    padding: 0.5rem 1.5rem;
+  }
+
+  .btn::first-letter {
+    font-size: 1.4rem;
+  }
+
+  .current {
+    position: relative;
+    width: 45%;
+    padding: 1rem;
+  }
+
+  .current-label {
+    font-size: 1.8rem;
+  }
+  .score {
+    margin-bottom: 0px;
+  }
+}
